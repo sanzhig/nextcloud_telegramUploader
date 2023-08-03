@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    info.xml
+    SPDX-FileCopyrightText: sanzhig <postmansan@gmail.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>telegramuploader</id>
+    <name>Telegram Uploader</name>
+    <summary>Загрузка файлов через telegram бота</summary>
+    <description><![CDATA[Загрузка файлов через telegram бота]]></description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author mail="postmansan@gmail.com" >sanzhig</author>
+    <namespace>TelegramUploader</namespace>
+    <category>tools</category>
+    <settings>
+        <admin>OCA\TelegramUploader\Controller\SettingsController</admin>
+    </settings>
+    <bugs>postmansan@gmail.com</bugs>
+    <dependencies>
+        <nextcloud min-version="2"/>
+    </dependencies>
+</info>
